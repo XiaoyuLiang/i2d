@@ -38,10 +38,6 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 * **Ying Hu** 
 * **Xiaoyu Liang** - xiaoyu.liang@yale.edu
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+Ying Hu designed research and wrote R package.
