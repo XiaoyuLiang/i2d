@@ -14,9 +14,10 @@ Give examples
 ```
 
 ### Installing
-
-install_github("XiaoyuLiang/R_code/i2d")
+```
+devtools::install_github("XiaoyuLiang/R_code/i2d")
 library(i2d)
+```
 
 ## Running the tests
 
