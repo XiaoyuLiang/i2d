@@ -2,11 +2,11 @@
 The R package i2d is a novel tool that allows simulating data extracted from image. Users can easily draw a simple image to create or simulate a complex data. The simulated data can be used to evaluate the performances of the clustering algorithms, especially in the fields of the single cell data analysis, such as trajectory analysis. The package also includes three novel and efficient methods for image clustering based on finding minimum spanning tree by Prim's algorithm, detecting communities by modularity optimization, and finding the branches of the backbone of minimum spanning tree.
 
 The package can be used for generating data sets for
-~~~
+
 1. cluster
 2. single cell analysis (cluster and trajectory)
 3. 2D and 3D data set visualization
-~~~
+
 
 ## Getting Started
 
