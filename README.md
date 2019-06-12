@@ -13,11 +13,14 @@ What things you need to install the software and how to install them
 Give examples
 ```
 
-### Installing
+### Installation
 ```
 devtools::install_github("XiaoyuLiang/R_code/i2d")
 library(i2d)
 ```
+
+### Clone
+Clone this repo to your local machine using `https://github.com/XiaoyuLiang/i2d`
 
 ## Running the tests
 
