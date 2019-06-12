@@ -14,9 +14,13 @@ BiocManager::install("igraph")
 ```
 
 ### Installation
+You can install the stable version of R/igraph from CRAN:
+```
+install.packages("i2d")
+```
+For the development version, you can use Github, with the devtools package:
 ```
 devtools::install_github("XiaoyuLiang/R_code/i2d")
-library(i2d)
 ```
 
 ### Clone
