@@ -6,11 +6,10 @@ The R package i2d is a novel tool that allows simulating data extracted from ima
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
-
-What things you need to install the software and how to install them
-
 ```
-Give examples
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install("EBImage")
 ```
 
 ### Installation
