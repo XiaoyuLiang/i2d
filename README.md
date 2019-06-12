@@ -10,6 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 BiocManager::install("EBImage")
+BiocManager::install("igraph")
 ```
 
 ### Installation
