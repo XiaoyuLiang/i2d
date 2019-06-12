@@ -3,9 +3,9 @@ The R package i2d is a novel tool that allows simulating data extracted from ima
 
 The package can be used for generating data sets for
 ~~~
-1: cluster
-2: single cell analysis (cluster and trajectory)
-3: 2D and 3D data set visualization
+1. cluster
+2. single cell analysis (cluster and trajectory)
+3. 2D and 3D data set visualization
 ~~~
 
 ## Getting Started
