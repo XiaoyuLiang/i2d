@@ -8,7 +8,7 @@ The package can be used for generating data sets for
 3. 2D and 3D data set visualization
 
 
-## Getting Started
+## 1. Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
@@ -33,23 +33,23 @@ devtools::install_github("XiaoyuLiang/R_code/i2d")
 ### Clone
 Clone this repo to your local machine using `https://github.com/XiaoyuLiang/i2d`
 
-## Running the tests
+## 2. Running the tests
 Explain how to run the automated tests for this system
 
-## Built With
+## 3. Built With
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
-## Bug reports and feature requests
+## 4. Bug reports and feature requests
 Bug reports, feature requests, or any other issues with the package should be reported at https://github.com/XiaoyuLiang/i2d/issues.
 
-## Contributions
+## 5. Contributions
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Authors
+## 6. Authors
 * **Ying Hu** 
 * **Xiaoyu Liang** - xiaoyu.liang@yale.edu
 
-## Acknowledgments
+## 7. Acknowledgments
 Ying Hu designed research and wrote R package.
