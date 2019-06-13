@@ -33,6 +33,11 @@ devtools::install_github("XiaoyuLiang/R_code/i2d")
 ### Clone
 Clone this repo to your local machine using `https://github.com/XiaoyuLiang/i2d`
 
+Once i2d is installed, it can be loaded by the following command.
+```
+library("i2d")
+```
+
 ## 2. Running the tests
 ```
 img.file = system.file("images", "circles.png", package="i2d")
