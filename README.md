@@ -34,7 +34,10 @@ devtools::install_github("XiaoyuLiang/R_code/i2d")
 Clone this repo to your local machine using `https://github.com/XiaoyuLiang/i2d`
 
 ## 2. Running the tests
-Explain how to run the automated tests for this system
+```
+img.file = system.file("images", "circles.png", package="i2d")
+img = readImage(img.file)
+```
 
 ## 3. Built With
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
