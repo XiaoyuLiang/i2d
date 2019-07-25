@@ -42,15 +42,15 @@ img.file = system.file("images", "circles.png", package="i2d")
 img = readImage(img.file)
 ```
 
-## 4. Bug reports and feature requests
+## 3. Bug reports and feature requests
 Bug reports, feature requests, or any other issues with the package should be reported at https://github.com/XiaoyuLiang/i2d/issues.
 
-## 5. Contributions
+## 4. Contributions
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## 6. Authors
+## 5. Authors
 * **Ying Hu** 
 * **Xiaoyu Liang** - xiaoyu.liang@yale.edu
 
-## 7. Acknowledgments
+## 6. Acknowledgments
 Ying Hu designed research and wrote R package.
