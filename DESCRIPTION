@@ -10,3 +10,4 @@ Depends: R (>= 2.10), igraph, EBImage
 BugReports: https://github.com/XiaoyuLiang/i2d/issues
 NeedsCompilation: no
 Packaged: Wed Feb 13 11:29:27 EST 2019
+Date/Publication: 2019-07-01
