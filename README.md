@@ -47,7 +47,7 @@ img = readImage(img.file)
 Bug reports, feature requests, or any other issues with the package should be reported at https://github.com/XiaoyuLiang/i2d/issues.
 
 ## 4. Contributions
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/XiaoyuLiang/i2d/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## 5. Authors
 * **Ying Hu** 
