@@ -12,7 +12,7 @@ Before reporting a bug, please ensure the bug was not already reported by search
 
 ## Propose an idea 
 
-Have an idea for a new i2d feature? Take a look at the .[Main Page](https://github.com/XiaoyuLiang/i2d) and [Issues](https://github.com/XiaoyuLiang/i2d/issues) to see if it is included or suggested. If not yet, suggest your idea as an [issue on i2d](https://github.com/XiaoyuLiang/i2d/issues). While we can't promise to implement your idea, it helps to:
+Have an idea for a new i2d feature? Take a look at the [Main Page](https://github.com/XiaoyuLiang/i2d) and [Issues](https://github.com/XiaoyuLiang/i2d/issues) to see if it is included or suggested. If not yet, suggest your idea as an [issue on i2d](https://github.com/XiaoyuLiang/i2d/issues). While we can't promise to implement your idea, it helps to:
 
 * Explain in detail how it would work.
 * Keep the scope as narrow as possible.
