@@ -4,7 +4,7 @@ The R package i2d is a novel tool that allows users to transform an image into a
 
 The package can be used for generating data sets for
 
-1. cluster
+1. image clustering
 2. biomedical and biological research
 3. 2D and 3D data set visualization
 
