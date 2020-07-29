@@ -47,7 +47,7 @@ image.dat  <- i2d(image=image.file, p.n=10000)
 Bug reports, feature requests, or any other issues with the package should be reported at [issues](https://github.com/XiaoyuLiang/i2d/issues).
 
 ## 4. Contributions
-Please read [CONTRIBUTING](https://github.com/XiaoyuLiang/i2d/blob/master/CONTRIBUTING) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING](https://github.com/XiaoyuLiang/i2d/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## 5. Authors
 * **Ying Hu** 
