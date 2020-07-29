@@ -14,9 +14,9 @@
 }
 
 \arguments{
-   \item{image}{image}
-   \item{p.n}{number of pointer}
-   \item{scale}{scale}
+   \item{image}{image file, type of file can be PNG, JPEG, TIF, or RAW}
+   \item{p.n}{number of points}
+   \item{scale}{a logical value, if scale the output coordinates}
 }
 
 \author{
@@ -25,10 +25,11 @@
 }
 
 \references{
-##
+Pau, G., Fuchs, F., Sklyar, O., Boutros, M., & Huber, W. (2010). EBImage--an R package for image processing with applications to cellular phenotypes. Bioinformatics, 26(7), 979-981. doi: 10.1093/bioinformatics/btq046
 }
 
 \examples{
-##
+image.file = system.file("images", "p01.png", package="i2d")
+image.dat  <- i2d(image=image.file, p.n=10000)
 }
 
