@@ -10,9 +10,9 @@ Before reporting a bug, please ensure the bug was not already reported by search
 * Detailed steps to reproduce the bug.
 * Any details about your local setup that might be helpful in troubleshooting.
 
-## Propose an idea 💡
+## Propose an idea
 
-Have an idea for a new our_package feature? Take a look at the [documentation][website] and [issue list][issues] to see if it isn't included or suggested yet. If not, suggest your idea as an [issue on GitHub][new_issue]. While we can't promise to implement your idea, it helps to:
+Have an idea for a new i2d feature? Take a look at the [Issues](https://github.com/XiaoyuLiang/i2d/issues) to see if it is included or suggested. If not yet, suggest your idea as an [issue on i2d](https://github.com/XiaoyuLiang/i2d/issues). While we can't promise to implement your idea, it helps to:
 
 * Explain in detail how it would work.
 * Keep the scope as narrow as possible.
