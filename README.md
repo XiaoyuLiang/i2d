@@ -5,7 +5,7 @@ The R package i2d is a novel tool that allows users to transform an image into a
 The package can be used for generating data sets for
 
 1. cluster
-2. single cell analysis (cluster and trajectory)
+2. biomedical and biological research
 3. 2D and 3D data set visualization
 
 
@@ -24,13 +24,13 @@ BiocManager::install("igraph")
 ### Installation
 Clone this repo to your local machine using `https://github.com/XiaoyuLiang/i2d`
 
-You can install the stable version of R/igraph from CRAN:
+You can install the stable version of R/i2d from CRAN:
 ```
 install.packages("i2d")
 ```
 For the development version, you can use Github, with the devtools package:
 ```
-devtools::install_github("XiaoyuLiang/R_code/i2d")
+devtools::install_github("XiaoyuLiang/i2d")
 ```
 Once i2d is installed, it can be loaded by the following command.
 ```
