@@ -39,8 +39,8 @@ library("i2d")
 
 ## 2. Running the tests
 ```
-img.file = system.file("images", "circles.png", package="i2d")
-img = readImage(img.file)
+image.file = system.file("images", "p01.png", package="i2d")
+image.dat  <- i2d(image=image.file, p.n=10000)
 ```
 
 ## 3. Bug reports and feature requests
