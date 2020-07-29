@@ -1,8 +1,14 @@
 # Contributing
 
-Thanks for considering contributing our i2d package. Ensure the bug was not already reported by searching on GitHub under [Issues](https://github.com/XiaoyuLiang/i2d/issues).
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. 
+Thanks for considering contributing our i2d package. When contributing to this repository, please first discuss the change you wish to make via [Issues](https://github.com/XiaoyuLiang/i2d/issues), email (xiaoyu.liang@yale.edu), or any other method with the owners of this repository before making a change. 
+
+## Report a bug
+
+Before reporting a bug, please ensure the bug was not already reported by searching on GitHub under [Issues](https://github.com/XiaoyuLiang/i2d/issues). 
+
+* Your operating system name and version (e.g. Mac OS 10.13.6).
+* Any details about your local setup that might be helpful in troubleshooting.
+* Detailed steps to reproduce the bug.
 
 ## Pull Request Process
 
