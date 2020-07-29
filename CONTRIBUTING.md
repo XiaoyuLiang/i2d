@@ -29,17 +29,16 @@ Have an idea for a new i2d feature? Take a look at the [Main Page](https://githu
 
 #### Function documentation
 
-Functions are described as comments near their code and translated to documentation using [`roxygen2`](https://klutometis.github.io/roxygen/). If you want to improve a function description:
+Functions are described as comments near their code. If you want to improve a function description or make any change of the function, we recommend you to upload a new function with a new name. 
 
-1. Go to `R/` directory in the [code repository][repo].
-2. Look for the file with the name of the function.
-3. [Propose a file change](https://help.github.com/articles/editing-files-in-another-user-s-repository/) to update the function documentation in the roxygen comments (starting with `#'`).
+1. Go to `R/` directory in the [code repository](https://github.com/XiaoyuLiang/i2d/tree/master/R/).
+2. [Upload the function documentation](https://github.com/XiaoyuLiang/i2d/tree/master/R/).
 
 ## Development guidelines
 
 We try to follow the [GitHub flow](https://guides.github.com/introduction/flow/) for development.
 
-1. Fork [this repo][repo] and clone it to your computer. To learn more about this process, see [this guide](https://guides.github.com/activities/forking/).
+1. Fork [this repo](https://github.com/XiaoyuLiang/i2d) and clone it to your computer. To learn more about this process, see [this guide](https://guides.github.com/activities/forking/).
 2. If you have forked and cloned the project before and it has been a while since you worked on it, [pull changes from the original repo](https://help.github.com/articles/merging-an-upstream-repository-into-your-fork/) to your clone by using `git pull upstream master`.
 3. Open the RStudio project file (`.Rproj`).
 4. Make your changes:
