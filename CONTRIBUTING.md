@@ -1,6 +1,7 @@
 # Contributing
 
-Thanks for considering contributing our i2d package. When contributing to this repository, please first discuss the change you wish to make via issue,
+Thanks for considering contributing our i2d package. Ensure the bug was not already reported by searching on GitHub under [Issues](https://github.com/XiaoyuLiang/i2d/Issues).
+When contributing to this repository, please first discuss the change you wish to make via issue,
 email, or any other method with the owners of this repository before making a change. 
 
 ## Pull Request Process
