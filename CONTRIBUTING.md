@@ -25,30 +25,27 @@ Have an idea for a new i2d feature? Take a look at the [Main Page](https://githu
 3. Increase the version numbers in any examples files and the README.md to the new version that this Pull Request would represent. 
 4. You may merge the Pull Request in once you have the sign-off of two other developers, or if you do not have permission to do that, you may request the second reviewer to merge it for you.
 
-## Code of Conduct
+## Improve the package documentation
 
-### Our Pledge
+#### Function documentation
 
-In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
+Functions are described as comments near their code and translated to documentation using [`roxygen2`](https://klutometis.github.io/roxygen/). If you want to improve a function description:
 
-### Our Standards
+1. Go to `R/` directory in the [code repository][repo].
+2. Look for the file with the name of the function.
+3. [Propose a file change](https://help.github.com/articles/editing-files-in-another-user-s-repository/) to update the function documentation in the roxygen comments (starting with `#'`).
 
-Examples of behavior that contributes to creating a positive environment include:
+## Development guidelines
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
+We try to follow the [GitHub flow](https://guides.github.com/introduction/flow/) for development.
 
-
-### Our Responsibilities
-
-Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior. Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
-
-### Scope
-
-This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community. Examples of representing a project or community include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by project maintainers.
-
-
-
+1. Fork [this repo][repo] and clone it to your computer. To learn more about this process, see [this guide](https://guides.github.com/activities/forking/).
+2. If you have forked and cloned the project before and it has been a while since you worked on it, [pull changes from the original repo](https://help.github.com/articles/merging-an-upstream-repository-into-your-fork/) to your clone by using `git pull upstream master`.
+3. Open the RStudio project file (`.Rproj`).
+4. Make your changes:
+    * Write your code.
+    * Test your code (bonus points for adding unit tests).
+    * Document your code (see function documentation above).
+    * Check your code with `devtools::check()` and aim for 0 errors and warnings.
+5. Commit and push your changes.
+6. Submit a [pull request](https://guides.github.com/activities/forking/#making-a-pull-request).
