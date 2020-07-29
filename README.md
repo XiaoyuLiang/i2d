@@ -44,7 +44,7 @@ img = readImage(img.file)
 ```
 
 ## 3. Bug reports and feature requests
-Bug reports, feature requests, or any other issues with the package should be reported at https://github.com/XiaoyuLiang/i2d/issues.
+Bug reports, feature requests, or any other issues with the package should be reported at [issues](https://github.com/XiaoyuLiang/i2d/issues).
 
 ## 4. Contributions
 Please read [CONTRIBUTING.md](https://github.com/XiaoyuLiang/i2d/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
