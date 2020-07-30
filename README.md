@@ -51,6 +51,7 @@ Please read [CONTRIBUTING](https://github.com/XiaoyuLiang/i2d/blob/master/CONTRI
 
 ## 5. Authors
 * **Ying Hu** 
+* **Chunhua Yan**
 * **Xiaoyu Liang** - xiaoyu.liang@yale.edu
 
 ## 6. Acknowledgments
