@@ -50,8 +50,8 @@ Bug reports, feature requests, or any other issues with the package should be re
 Please read [CONTRIBUTING](https://github.com/XiaoyuLiang/i2d/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## 5. Authors
-* **Ying Hu** 
-* **Chunhua Yan**
+* **Ying Hu** - yhu@mail.nih.gov
+* **Chunhua Yan** - yanch@mail.nih.gov
 * **Xiaoyu Liang** - xiaoyu.liang@yale.edu
 
 ## 6. Acknowledgments
