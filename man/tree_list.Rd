@@ -19,8 +19,11 @@
 }
 
 \author{
- Ying Hu <yhu@mail.nih.gov>
- Chunhua Yan <yanch@mail.nih.gov>
+Ying Hu \email{yhu@mail.nih.gov}
+
+Chunhua Yan \email{yanch@mail.nih.gov}
+
+Xiaoyu Liang \email{xiaoyu.liang@yale.edu}
 }
 
 \references{
