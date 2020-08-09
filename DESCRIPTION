@@ -1,8 +1,8 @@
 Package: i2d
 Version: 0.1
 Date: 2019-02-13
-Author: Xiaoyu Liang <xiaoyu.liang@yale.edu> Ying Hu <yhu@mail.nih.gov>
-Maintainer: Xiaoyu Liang <xiaoyu.liang@yale.edu> Ying Hu <yhu@mail.nih.gov>
+Author: Ying Hu <yhu@mail.nih.gov> Chunhua Yan <yanch@mail.nih.gov> Xiaoyu Liang <xiaoyu.liang@yale.edu> 
+Maintainer: Xiaoyu Liang <xiaoyu.liang@yale.edu> 
 License: GPL-2
 Title: Convert image to digital data 
 Description: Toots are for Graph Based Cluster.
