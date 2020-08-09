@@ -24,11 +24,7 @@ BiocManager::install("igraph")
 ### Installation
 Clone this repo to your local machine using `https://github.com/XiaoyuLiang/i2d`
 
-You can install the stable version of R/i2d from CRAN:
-```
-install.packages("i2d")
-```
-For the development version, you can use Github, with the devtools package:
+You can install i2d package from Github, with the devtools package:
 ```
 devtools::install_github("XiaoyuLiang/i2d")
 ```
