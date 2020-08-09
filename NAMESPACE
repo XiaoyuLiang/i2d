@@ -1,7 +1,7 @@
 export (i2d)
 export (mstGCluster)
 export (mgGCluster)
-export (GCluster)
+export (codeGCluster)
 export (tjGCluster)
 export (tjGCluster2)
 export (tree_list)
