@@ -2,22 +2,30 @@
 \alias{tjGCluster2}
 
 \title{
- trajectory analysis
+tjGCluster2: Trajectory Analysis for Finding the Spine Skeleton and the Branches of the Backbone of Minimum Spanning Tree
 }
 
 \description{
- trajectory analysis
+Based on \code{tjGCluster}, \code{tjGCluster2} returns two levels of branches. (1) the path of the spine skeleton of minimum spanning tree; (2) the branches of the backbone of the minimum spanning tree.
 }
 
 \usage{
-  tjGCluster2(m, from=NULL, to=NULL, cutoff=25);
+tjGCluster2(m, from=NULL, to=NULL, cutoff=25);
 }
 
 \arguments{
-   \item{m}{data.frame or matrix or igraph object}
-   \item{from}{start vetex}
-   \item{to}{end vetex}
-   \item{cutoff}{it will be a branch if vertex number > cutoff}
+   \item{m}{data.frame or matrix of x-coordinate and y-coordinate, or igraph object.}
+   \item{from}{start vetex: If \code{from=NULL} (the default), the spine skeleton returns, otherwise, the path starts from the given vertex.}
+   \item{to}{end vetex: If \code{from=NULL} (the default), , the spine skeleton returns, otherwise, the path ends at the given vertex.}
+   \item{cutoff}{branch cut-off value: branches will return with vertex number > \code{cutoff}.}
+}
+
+\value{
+   \item{coord}{matrix: the xy-coordinate of the shortest path for maximum distance positions in the minimum spanning tree (the spine skeleton). If some brancches have number of vertices > cutoff, the matrix will also include the xy-coordinate of the branches.}
+   \item{node}{the nodes on the spine skeleton.}
+   \item{mst}{the minimum spanning tree.}
+   \item{level1}{list: branch list on the spine skeleton.}
+   \item{level2}{list: branch list on the long branch with vertex number > \code{cutoff}.}
 }
 
 \author{
@@ -29,10 +37,13 @@ Xiaoyu Liang \email{xiaoyu.liang@yale.edu}
 }
 
 \references{
-##
+Csardi, G., & Nepusz, T. (2006). The igraph software package for complex network research. InterJournal, complex systems, 1695(5), 1-9.
 }
 
 \examples{
-##
+data(i2d_Example,package="i2d")
+dat <- i2d(image=i2d_Example, p.n=30)
+tj=tjGCluster(dat, from=NULL, to=NULL)
+tj2=tjGCluster2(dat, from=NULL, to=NULL, cutoff=2)
 }
 

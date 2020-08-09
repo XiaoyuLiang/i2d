@@ -2,15 +2,15 @@
 \alias{tree_list}
 
 \title{
- get the tree vertex list
+tree_list: Get the Tree Vertex List
 }
 
 \description{
- get the tree vertex list
+Get the tree vertex list.
 }
 
 \usage{
-  tree_list(g, nodes);
+tree_list(g, nodes);
 }
 
 \arguments{
@@ -26,11 +26,5 @@ Chunhua Yan \email{yanch@mail.nih.gov}
 Xiaoyu Liang \email{xiaoyu.liang@yale.edu}
 }
 
-\references{
-##
-}
 
-\examples{
-##
-}
 

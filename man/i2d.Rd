@@ -2,15 +2,15 @@
 \alias{i2d}
 
 \title{
- convert 2D image into digital coordinates
+convert 2D image into digital coordinates
 }
 
 \description{
- convert 2D image into digital coordinates
+convert 2D image into digital coordinates
 }
 
 \usage{
-  i2d(image=image, p.n=500, scale=T);
+i2d(image=image, p.n=500, scale=T);
 }
 
 \arguments{
