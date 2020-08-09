@@ -35,8 +35,8 @@ library("i2d")
 
 ## 2. Running the tests
 ```
-image.file = system.file("images", "p01.png", package="i2d")
-image.dat  <- i2d(image=image.file, p.n=10000)
+data(i2d_Example,package="i2d")
+image.dat <- i2d(image=i2d_Example, p.n=5000)
 ```
 
 ## 3. Bug reports and feature requests
