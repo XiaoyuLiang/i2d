@@ -126,7 +126,7 @@ codeGCluster <- function(dat=dat, wt=4, k=NULL, diff_distance=0.1, method="louva
       g       <- g0;
       w.i     <- which(E(g)$weight > wt0);
       igraph::E(g)$weight[w.i] <- 0;
-      cat(paste0("re-make graph clustering ...\n"))
+      cat(paste0("re-make graph clustering with weight cut-off value ",wt0," \n"))
       if (method=="louvain"){
         out     <- igraph::cluster_louvain(g, weights = E(g)$weight);
       } else if (method=="fast_greedy"){
