@@ -1,7 +1,7 @@
 
 ##tjGCluster: get the spine skeleton vertices and path of MST
 
-tjGCluster <- function(m, from=NULL, to=NULL, cutoff=25){
+tjGCluster <- function(m, from=NULL, to=NULL, cutoff=26){
   tj.out   <- tjGCluster_basic(m, from=from, to=to);
   br.list  <- branch_list(tj.out$mst, tj.out$node);
   br.len   <- unlist(lapply(br.list, length));
