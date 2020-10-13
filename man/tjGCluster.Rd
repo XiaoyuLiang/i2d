@@ -10,7 +10,7 @@ tjGCluster: Trajectory Analysis for Finding the Spine Skeleton and the Branches 
 }
 
 \usage{
-tjGCluster(m, from=NULL, to=NULL, cutoff=25);
+tjGCluster(m, from=NULL, to=NULL, cutoff=26);
 }
 
 \arguments{
